@@ -1,0 +1,279 @@
+\chapter{Valutazione bilanci aziendali}
+\label{sec:ValutazioniBilanciAziendali}
+
+\section{Introduzione e standard contabili}
+Verrá effettuato un approfondito e un ripasso del conto economico, dello stato patrimoniale e dei cash flow, soprattutto da un punto di vista operativo reale.
+
+Ci sono due tipologie di standard contabili:
+\begin{itemize}
+    \item IAS: International Accounting Standard, utilizzato in italia dalla maggior parte delle aziende
+    \item GAAP: Utilizzato nei bilanci americani
+\end{itemize}
+Saper leggere un bilancio è utile in qualunque campo, da stakehlder esterno o anche per coloro che sono in fase produttiva. In questo corso ci si occuperá di redigerlo ma solamente di interpretarlo.
+
+Il software da utilizzare è AIDA\footnote{\url{https://aida-bvdinfo-com.ezproxy.biblio.polito.it/}}, utile soprattutto nel contesto italiano dove la maggior parte delle aziende non sono quotate, AIDA funziona come un motore di ricerca, si possono scaricare bilanci sia in formato excel sia in formato PDF. Contiene informazioni che non si limitano ai 3 documenti del bilancio ma comprende anche elementi aggiuntivi.
+
+\section{Documenti principali di un bilancio}
+
+Dentro un bilancio ci sono 3 documenti:
+\begin{itemize}
+    \item \textit{Income Statement}: Conto economico
+    \item \textit{Balance sheet}: Stato patrimoniale
+    \item \textit{Cash Flow}: questo documento è meglio ricavarselo dai una rielaborazione dei primi due documenti
+\end{itemize}
+
+\subsection{Principi fondamentali}
+
+\begin{enumerate}
+    \item \textit{Accrual Principle}: viene contabilizzato il ricavo o il costo, non nel momento in cui avviene il movimento di denaro ma nel momento dell'emissione della fattura, questo principio è il cosiddetto \textit{Principio della Competenza Economica}, in contrapposizione con il \textit{Cash accounting} dove viene contabilizzato il movimento di denaro, nei bilanci non si usa questo principio.
+    \item Gli assets che si comprano per fare business, i cosiddetti \textit{CAPEX}\footnote{contrazione da CAPital EXpenditure, cioè le spese in conto capitale: indica in economia aziendale l'ammontare di flusso di cassa che una società impiega per acquistare, mantenere o implementare le proprie immobilizzazioni operative, come edifici, terreni, impianti o attrezzature} non vengono registrati nel conto economico per intero ma solo per la parte di competenza dell'anno corrente redigendo un \textit{piano di ammortamento}
+    \item \textit{Capital Gain}\footnote{Plusvalenza} e \textit{Write Offs}\footnote{Minusvalenza} si manifestano quando si vende un asset ad un prezzo diverso dal valore contabile, quindi diverso dal valore iscritto in bilancio
+\end{enumerate}
+
+\subsection{Income Statement o Conto Economico}
+
+Occorre fare una riclassificazione del conto economico per poterlo interpretare in maniera corretta:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.7\linewidth]{images/chapter2/1.jpg}
+    \caption{Riclassificazione Income Statement}
+    \label{fig:riclassificazioneIncomeStatement}
+\end{figure}
+
+\begin{conditions*}
+    EBITDA  &   Operative Margin: metrica di riferimento, se negativa significa che l'azienda, considerando solo costi del personale, dei servizi e delle materie prime è giá in perdita\\
+    EBITDA  &   Net Operative Margin: parte dall'EBIT e considera anche gli ammortamenti ovvero gli investimenti (CAPEX)\\
+    \text{Financial Expeditures / Income}   &   rappresentano gli interessi, il resto è considerato solo nel Balance Sheet\\
+    EBIT    &   Il risultato operativo prima di considerare le tasse
+\end{conditions*}
+Il flusso è quindi il seguente:
+
+\begin{enumerate}
+    \item viene pagato il business, cioè il D\&N con l'EBITDA
+    \item Si pagano i creditori con l'EBIT
+    \item Si pagano le tasse con l'EBT
+    \item Si pagano i dividenti con il Net Income
+\end{enumerate}
+
+È possibile avere tasse da pagare anche in presenza di un EBT negativo, questo per via dell'IRAP, in Italia questa imposta è contestata perchè affossa le aziende che giá presentano un EBT negativo
+
+\subsection{Balance Sheet o Stato Patrimoniale}
+
+\begin{minipage}[t]{.45\linewidth}
+    \textit{Asset} o fonti (Attivo):
+    \begin{itemize}
+        \item Fixed Asset (convertiti in cash >12 mesi):
+        
+            \begin{itemize}
+                \item PPE: Properties, Plants and Equipments
+                \item Intangible Items: Goodwill\footnote{Avviamento}
+                \item Financial Asset
+            \end{itemize}
+
+        \item Current Assets (convertiti in cash <12 mesi):
+        
+            \begin{itemize}
+                \item Crediti commerciali
+                \item Inventario
+                \item Financial Assets
+                \item Cash
+            \end{itemize}
+
+    \end{itemize}
+\end{minipage}
+\hfill
+\vline
+\hfill
+\begin{minipage}[t]{.45\linewidth}
+    \textit{Liabilities} o impieghi:
+    \begin{itemize}
+        \item Equity:
+
+            \begin{itemize}
+                \item Stocks
+                \item Riserve
+                \item Utile non redistribuito
+            \end{itemize}
+
+        \item Long term debts:
+        
+            \begin{itemize}
+                \item Debiti bancari
+            \end{itemize}
+
+        \item Short term debts:
+            
+            \begin{itemize}
+                \item Debiti con banche a breve
+                \item Debiti commerciali
+            \end{itemize}
+    \end{itemize}
+\end{minipage}
+
+La parte delle Liabilities a \textit{Lungo termine} prende il nome di \textit{Capital Employed}
+
+\subsubsection{Equazione fondamentale del Balance Sheet}
+\begin{theorem}
+    \text{Assets}=\text{Liabilites}
+\end{theorem}
+
+\subsubsection{Esempi}
+
+\begin{enumerate}
+    \item   Ricevo fattura di 2k€
+            
+            \begin{minipage}[t]{.45\linewidth}
+                \textit{Asset} o fonti (Attivo):
+            \end{minipage}
+            \hfill
+            \vline
+            \hfill
+            \begin{minipage}[t]{.45\linewidth}
+                \textit{Liabilities} o impieghi:
+
+                + Liabilities: +2k€\\
+                - Shareholder Equity: -2k€
+            \end{minipage}  
+    \item   Finanziamento 4M€
+            
+            \begin{minipage}[t]{.45\linewidth}
+                \textit{Asset} o fonti (Attivo):
+
+                +Cash: +4M€
+            \end{minipage}
+            \hfill
+            \vline
+            \hfill
+            \begin{minipage}[t]{.45\linewidth}
+                \textit{Liabilities} o impieghi:
+
+                - Debito: -4M€
+            \end{minipage}
+    \item   Vendo per 5M€
+            
+            \begin{minipage}[t]{.45\linewidth}
+                \textit{Asset} o fonti (Attivo):
+                
+                - Fixed Asset: -10M€\\
+                + Cash: +5M€
+            \end{minipage}
+            \hfill
+            \vline
+            \hfill
+            \begin{minipage}[t]{.45\linewidth}
+                \textit{Liabilities} o impieghi:
+
+                - Shareholder Equity: -5M€
+            \end{minipage}
+    \item   Chiudo l'anno in perdita
+            
+            \begin{minipage}[t]{.45\linewidth}
+                \textit{Asset} o fonti (Attivo):
+                
+                - Fixed Asset: -10M€\\
+                + Current assets o cash: 0M€
+            \end{minipage}
+            \hfill
+            \vline
+            \hfill
+            \begin{minipage}[t]{.45\linewidth}
+                \textit{Liabilities} o impieghi:
+
+                - Shareholder Equity: -5M€\\
+                + Debt: +15M€
+            \end{minipage}
+\end{enumerate}
+
+\section{Rivalutazioni e Impairment}
+
+Definiamo il \textit{Carrying Amount} come il valore dell'asset dell'acquisizione meno il deprezzamento. È importante avere l'attivo realmente valutato perchè rappresenta il limite per richiedere il debito
+
+Gli Assets si rivalutano grazie all'\textit{IAS 36 Impairment}, un contabile esterno si occupa di questo, rivalutando tutte le voci dell'attivo alla fine dell'anno. Le aziende quotate pubblicano i bilanci ogni trimestre con 1-2 mesi di sfasamento, quelle non quotate anche con 6 mesi di ritardo rispetto alla fine dell'anno. La rivalutazione deve essere ricalcolata quando si ritiene che ci sia una differenza con il \textit{carrying amount}, quando ques'ultimo, per qualche motivo, non è più realistico. \textit{Impairment IAS 36} serve per dare lo standard di questa rivalutazione, in particolare il valore della parte sinistra sia inferiore della parte di destra, la legge quindi ti dice di svalutare la parte di destra, quindi riduci o equity o debito.
+
+Un aumento di valore non è concesso perché ci sono vincoli alla rivalutazione molto forti, perché c'è rischio di manipolazione. Esistono leggi speciali che concedono una rivalutazione in positivo in casi rari, un esempio è la legge della rivalutazione dei marchi durante la pandemia di COVID19. Determinate rivalutazioni in positivo possono essere giustificate da situazione particolari, come per esempio il blocco di ammortamenti è giustificato dal fatto che, ad esempio durante la pandemia i macchinari hanno lavorato molto meno del previsto, non si sono consumati e quindi un blocco della svalutazione da ammortamento è giustificato.
+
+Quando si effettua una svalutazione, parte degli asset che vanno portati in ribasso a sinistra, devono essere compensati con un ribasso anche nella parte destra, solitamente si attacca direttamente l'equity come prima scelta, il debito è senior sull'equity
+
+L'\textit{impairment} è solitamente una perdita e di fatto si registra come una minusvalenza.
+
+\subsubsection{Impairment Test}
+
+L'\textit{Impairment Test} si effettua al verificarsi di eventi esterni particolari come declini di mercato, aumento vertiginoso dei tassi di interessi, eventi di larga scala come la panemia COVID19, oppure al verificarsi di determinati eventi interni all'impresa come l'obsolescenza dell'Equipment, le performance aziendali particolamente peggiori delle aspettative, in caso di joint ventures.
+
+Le fasi di un \textit{Impairment test} sono:
+\begin{enumerate}
+    \item Valutare il nuovo asset trovando il \textit{Recoverable Amount}
+    \item Controntare il \textit{Carrying amount} e \textit{Recoverable Amount}
+    \item Inserire il valore minore tra i due valori secondo il principio della \textit{massima prudenza}
+\end{enumerate}
+
+I valori considerati sono:
+\begin{itemize}
+    \item \textit{Carrying amount}: Valore prima dell'impairment test
+    \item \textit{Recoverable amount}: Valore dopo l'impairment test
+    \item \textit{Fair Value}: valore che avrebbe l'asset da valutare nel caso in cui fosse offerto sul mercato di scambio, non è facile stimare il prezzo nel caso in cui l'asset non avesse un mercato
+    \item \textit{Value in Use}: Valore dell'asset corrispondente all'attualizzazione dei futuri flussi di cassa
+    \item \textit{Impairment Loss}: Valore di carrying amount che eccede il recoverable amount
+\end{itemize}
+
+Tra il \textit{Fair Value} e il \textit{Value in use} è preferibile utilizzare il primo, questo perchè la valutazione secondo il valore di mercato è una valutazione oggettiva, mentre secondo il Valore in uso si considerano più fattori di tipo soggettivo, durante una valuazione è sempre bene eliminare il più possibili fattori di soggettivitá, sia per evitare ogni tipo di manipolazione giustificata, sia per evitare manipolazioni anche in buona fede
+
+Si presentano alla fine della valutazione 3 tipi di alternative:
+\begin{enumerate}
+    \item \textit{Value in use < Market Value < Carrying Amount}: in questo caso si registra una perdita tramite impairment loss, a bilancio viene indicato il market value, ovvero il più basso tra i due valori valutati secondo il principio della massima prudenza
+    \item \textit{Market Value < Value in Use < Carrying Amount}: in questo caso è preferibile registrare a bilancio il Value in use
+    \item \textit{Recoverable amount < Carrying amount}: Si lascia inalternato il valore, secondo il principio della massima prudenza è preferibile lasciare la valutazione passata
+\end{enumerate}
+
+\section{Debito: principi contabili}
+
+i debiti hanno le seguenti caratteristiche:
+\begin{itemize}
+    \item Rappresentano un obbligo di effettuare dei pagamenti futuri
+    \item Non vengono pagate tasse o imposte sul valore dei debiti (scudo fiscale)
+    \item Se non si paga il debito entro la scadenza\footnote{Default} si può perdere il controllo della proprietá dell'azienda, questo è il principio secondo il quale il debito è \textit{Senior} all'equity
+\end{itemize}
+
+Il leasing è considerato al pari di un debito solo dal 2019 in italia, è esattamente come un affitto, il leasing finanziario in particolare è paragonabile ad un mutuo, fino al 2019 erano considerati costi operativi mentre attualmente è un debito a tutti gli effetti pluriennale.
+
+\subsubsection{Esercizio}
+
+Si vuole acquistare un'intera unitá aziendale del valore di €40M che giá esiste ed è giá operativa. Occorre fare il bilancio di questa business unit per poterla valutare tenendo presente le seguenti condizioni:
+\begin{itemize}
+    \item Viene acquisita con importo da parte dei manager dell'azienda stessa per €10M, vogliono mantenere una posizione all'interno dell'azienda, la loro posizione sará del 50\%
+    \item Vengono apportati €10M da parte dei nuovi acquirenti
+    \item €20M saranno a debito con pagamento bullet\footnote{Il pagamento Bullet consiste in un pagamento interamente a scadenza, metodo di pagamento molto utilizzato per l'acquisizione delle aziende}
+    \item €20M sono utilizzati per comprare l'azienda che aveva un valore attivo di €10M con ammortamento con durata di 25 anni
+\end{itemize}
+
+Nel corso del primo anno vengono effettuate le seguenti operazioni:
+\begin{itemize}
+    \item Acquisto materie prime per €40M
+    \item Vendita di prodotti (costati €25M\footnote{Chiamati COGS: Cost Of Goods Sold}) per un ricavo totale di €45M cash
+    \item €2M bill per l'elettricitá
+    \item Interessi di €3M
+    \item Salari degli impiegati pagati di €10M
+    \item Pagamento di debiti di €25M
+    \item Assicurazione per un valore di €1M
+\end{itemize}
+
+\subsubsection{Soluzione}
+\begin{itemize}
+    \item D\&A sono gli ammortamenti e si calcolano sul valore dei PPE acquistati, secondo la competenza dell'anno corrente:
+    \[
+        \frac{10M}{25}=0.4M
+    \]
+    \item  \textit{Goodwill} corrispondono alla differenza che c'è tra Asset e Liabilites nel momento dell'acquisto, dovrebbe essere ammortizzato ma per semplicitá lo manteniamo così
+    \item L'inventario è dato dalla differenza tra i prodotti creati e quelli venduti, quindi in questo caso\[40M-25M=15M\]
+    \item I profitti non distribuiti sono pari all'EBT
+    \item Short Term debt è dato da €40M di acquisto di materie prime meno €25M di pagamento debiti:\[40M-25M=15M\]
+    \item Service and other costs comprende sia i bill dell'elettricitá sia l'assicurazione
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{images/chapter2/2.jpg}
+    \caption{Soluzione esercizio}
+    \label{fig:soluzioneEsercizio}
+\end{figure}
