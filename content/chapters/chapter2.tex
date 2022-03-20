@@ -277,3 +277,159 @@ Nel corso del primo anno vengono effettuate le seguenti operazioni:
     \caption{Soluzione esercizio}
     \label{fig:soluzioneEsercizio}
 \end{figure}
+
+\section{Indici e misuratori di performance aziendali}
+
+standard IAS è uno standard contabile utilizzato in tutto il mondo ad eccezione degli Stati Uniti, il leasing, secondo questo standard contabile, è considerato in tutto e per tutto un debito, non compaiono costi operativi ma solamente asset. Chi, per la sua attivitá, utilizza molto il contratto di leasing, vede quindi un notevole aumento dell'EBITDA. Nello stato patrimoniale compare il valore attuale di tutti i pagamenti futuri attualizzati al tasso di interesse del leasing.
+
+Il conto economico economico e lo stato patrimoniale vanno osservati sempre in contemporanea per effettuare una corretta analisi, confrontati anche con casi benchmark di concorrenti dello stesso settore per capire l'andamento e lo stato dell'azienda in analisi. Ritorni sull'investimento misurano il rendimento del capitale che può essere degli azionisti (ROE), del capitale (ROC), degli assets (ROA)
+
+\subsection{Indici di ritorno degli investimenti}
+
+Sono indicatori di fondamentale importanza nel lungo periodo, è sempre utile capire se un'azienda riesce a remunerare il proprio capitale, cosa che se non avviene porta inevitabilmente allo scioglimento. I ratios più importanti di tutti sono i ritorni sull'investimento ROI che possono essere di diverso tipo a seconda della loro formulazione:
+
+\begingroup
+\renewcommand{\arraystretch}{1.5}
+
+\begin{tabularx}{\linewidth}{l l c}
+    ROTA & Return on Total Assets & \(\frac{EBIT}{\text{Total Assets}}\) \\
+    ROIC & Return on Investments Capital & \(\frac{EAT\text{ - Dividends}}{\text{Total Assets}}\) \\
+    ROE & Return on Equity & \(\frac{EAT}{\text{Net Worth}}\)
+  \end{tabularx}
+
+\endgroup
+
+  In particolare l'indice ROIC è l'indice più utilizzato dagli investitori e per essere un buon valore deve essere maggiore del WACC, valore che misura l'opportunitá costo del capitale, ovvero quanto ci si aspetta che performi il capitale rispetto al suo rischio
+
+\begin{align*}
+    ROIC &= \frac{\text{Net Income}-\text{Dividends}}{\text{Total Assets}}\\
+    WACC &= \frac{E}{E+D}C_e + (1-T)\frac{D}{D+E}C_d
+\end{align*}
+
+Per quanto riguard il ROTA è visto come il risultato dei margini operativi per il giro di affati (assets turnover):
+\begin{align*}
+    ROTA &= \frac{EBIT}{\text{Total Assets}} =\\
+        &= \frac{EBIT}{\text{Sales}}\times\frac{\text{Sales}}{Total Assets}
+\end{align*}
+\begin{conditions*}
+    \frac{EBIT}{SALES}  &   Margine operativo Netto\\
+    \frac{\text{Sales}}{Total Assets}   &   Assets Turnover (Giro d'affari)
+\end{conditions*}
+
+Si possono presentare 3 situazioni differenti che sono apparentemente identiche se si guardasse solo il risultato finale:
+\begin{enumerate}
+    \item \(7\% \xrightarrow{2\times} 14\% \) margini bassi e \(\frac{\text{Sales}}{\text{Total Assets}}\) alto
+    \item \(2.5\% \xrightarrow{6.6\times} 14\% \) margini alti e \(\frac{\text{Sales}}{\text{Total Assets}}\) basso
+    \item \(12\% \xrightarrow{1.2\times} 14\% \) margini alti e \(\frac{\text{Sales}}{\text{Total Assets}}\) medio
+\end{enumerate}
+
+\subsection{Indici di liquiditá}
+è possibile che un'impresa non abbia abbastanza cassa ma abbia utile quando ci sono troppi investimenti in CAPEX o quando ci sono troppi capitali di lavoro. Le startup sono un esempio di questa situazione.
+
+\begingroup
+\renewcommand{\arraystretch}{1.5}
+
+\begin{tabularx}{\linewidth}{l l c}
+    CR & Current Ratio & \(\frac{\text{Current Assets}}{\text{Current Liabilities}}\) \\
+    QR & Quick Ratio & \(\frac{\text{Current Assets}-\text{Inventory}}{\text{Current Liabilities}}\) \\
+  \end{tabularx}
+  
+\endgroup
+
+L'indice \textit{CR} server per capire quando un'azienda è in grado di onorare le proprie obbligazioni di breve periodo
+
+L'indice \textit{QR} è ancora più rapido rispetto al CR e serve per capire la capacitá di un'impresa di onorare le proprie obbligazioni con i propri assets al netto delle rimanenze
+
+\subsection{Indici di assorbimento del capitale}
+
+Occorre capire quale parte di un business assorbe più liquiditá
+
+\vspace{2em}
+\begin{tabularx}{\textwidth}{m{.2\textwidth} m{.05\textwidth} m{.2\textwidth} m{.05\textwidth} m{.2\textwidth}}
+
+    Acquisto materie prime  & \(\rightarrow\)    & Trasformazione in rimanenze & \(\rightarrow\)  &Vendita prodotti finiti \\
+
+    \begin{center} \(\downarrow\) \end{center}   &   &\begin{center} \(\downarrow\) \end{center}  &   &\begin{center} \(\downarrow\) \end{center} \\
+
+    Genera debiti con i fornitori   &   &Genera inventario e Work in Progress (WIP) & &Genera Credito \\
+
+    \begin{center} \(\downarrow\) \end{center}   &   &\begin{center} \(\downarrow\) \end{center}  &   &\begin{center} \(\downarrow\) \end{center} \\
+
+    Devono essere il Piú Alto possibile - \textit{Non assorbono} cash  &   &Devono essere il Piú Basso possibile - \textit{assorbono} cash & &Devono essere il Piú Basso possibile - \textit{assorbono} cash \\
+
+  \end{tabularx}
+
+  \vspace{2em}
+
+  Quando c'è il capitale, c'è il rischio, gli interessi si basano sul rischio, è quindi fondamentale valutare l'entitá di questo capitale. Altri indicatori di liquiditá per misurare il capitale di lavoro:
+
+  \vspace{2em}
+  \begingroup
+\renewcommand{\arraystretch}{1.5}
+  \begin{tabularx}{\linewidth}{l l c}
+    DPO & Days Payable Outstanding& \(\frac{\text{Payables}}{COGS} \times 365\) \\
+    DOI & Days Inventory Outstanding& \(\frac{\text{Inventory}}{\text{Raw materials}}\times 365\) \\
+    DSO & Days Sales Outstanding & \(\frac{\text{Receivables}}{\text{Net Sales}}\times 365\) \\
+  \end{tabularx}
+  \endgroup
+  \vspace{2em}
+
+  Il \textit{DPO} indica i giorni necessari in media per pagare i fornitori, più alto è meglio è, infatti avere debito non assorbe liquiditá
+
+  Il \textit{DOI} indica i giorni medi che servono per vendere le stock, in questo caso più basso è questo indicatore meglio è, prima si vendono le rimanenze prima si possiede liquiditá
+
+  Il \textit{DSO} indica i giorni medi necessari per essere pagati dai clienti, più basso è meglio è, i crediti assorbono liquiditá
+
+  \subsection{Indicatori di capacitá finanziaria o di resilienza}
+
+  \begingroup
+  \renewcommand{\arraystretch}{1.5}
+    \begin{tabularx}{\linewidth}{l l c}
+      IC & Interest Coverage & \(\frac{EBIT}{\text{Interest paid}} \) \\
+      DE & Debt to Equity & \(\frac{\text{Debt}}{\text{Equity}}\) \\
+      DOM & Debt to Operate Margin & \(\frac{\text{Net Debt}}{EBITDA}\) \\
+      CC & Cash Conversion & \(\frac{\text{Free Cash Flow}}{EBITDA}\) \\
+    \end{tabularx}
+\endgroup
+\vspace{2em}
+
+\textit{IC} indica quanti interessi deve pagare un impresa rispetto al suo risultato operativo, più concretamente quanto un impresa riesce facilmente a ripagare i suoi interessi sui debiti in sospeso
+
+\textit{DE} indica invece i fondi forniti dai prestatori in confronto ai fondi forniti dai proprietari, in pratica quanto un'impresa è \textit{leverage}
+
+\textit{DOM} è l'indicatore che comunica quanto tempo in media si prende l'ipresa per pagare i debiti
+
+\textit{CC} indica la porzione dei profitti operativi che viene convertita in liquiditá, cioè in cash
+
+\subsection{Effetto Leva}
+
+Il debito consente di avere ritorni sull'equity più alti rispetto all'equity.
+
+Dal punto di vista di un investitore,\textit{Ex ante} se il finanziamento è in equity si affronta un rischio maggiore rispetto ad un finanziamento in debito, questo perchè il debito è \textit{Senior} all'equity, ovvero viene sempre preferito e ha sempre la prelazione per i rimborsi, essendo maggiore il rischio per chi finanzia tramite equity è normale che in caso di successo dell'impresa il ritorno dell'investimento sará maggiore.
+
+Dal punto di vista dell'impresa, sempre nella situazione \textit{Ex ante} il rischio maggiore si corre indebitandosi, per questo motivo è giustificato l'effetto leva, indebitandosi infatti, in caso di successo dell'impresa, l'impresa stessa avrá un ritorno maggiore.
+
+\subsubsection{Correlazione tra ROE e ROTA}
+
+\begin{equation}
+    ROE = ROTA + [\frac{D}{E} \times \underbrace{(ROTA - I)}_{\text{leva}}]\times(1-\tau)
+\end{equation}
+\begin{conditions*}
+    ROE & Return On Equity\\
+    ROTA & Return On Total Assets\\
+    D & Debt\\
+    E & Equity\\
+    I & Interests\\
+    \tau & Tasso di attualizzazione\\
+\end{conditions*}
+
+\subsection{Riepilogo indicatori più importanti}
+
+\begin{conditions*}
+    \text{Revenue Trend}    &   Osservazione nell'ultimo biennio, se decresce potrebbe essere un problema ma dipende dal benchmark\footnote{Concorrenti}\\
+    \text{Gross Margin}    &   Osservazione nell'ultimo biennio, se decresce potrebbe essere un problema ma dipende dal benchmark\\
+    \text{EBITDA margin} &    Se è significativamente inferiore dei competitors allora significa che l'impresa è meno competitiva nel medio termine\\
+    ICR & se >60\%-70\% l'impresa perde di credibilitá con le banche perchè gli interessi sono troppo alti\\
+    ROI & se <5\%-6\% o in alternaiva se più basso del debito significa che la leva tende ad essere negativa, si veifica distruzione di valore\\
+    \frac{\text{Debito Netto}}{EBITDA} & se>5-6 allora potrebbero esserci seri dubbi sulla capacitá dell'impresa di fare buyback
+\end{conditions*}
