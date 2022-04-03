@@ -442,3 +442,106 @@ Dal punto di vista dell'impresa, sempre nella situazione \textit{Ex ante} il ris
     ROI & se <5\%-6\% o in alternaiva se più basso del debito significa che la leva tende ad essere negativa, si veifica distruzione di valore\\
     \frac{\text{Debito Netto}}{EBITDA} & se>5-6 allora potrebbero esserci seri dubbi sulla capacitá dell'impresa di fare buyback
 \end{conditions*}
+
+\subsection{Cash Flow Statement}
+
+È composto da diversi elementi:
+\begin{enumerate}
+    \item Cash flow da attivitá operative:
+        \begin{itemize}[label={}]
+            \item + Inflows dalla vendita ai clienti
+            \item + Inflows dalla facilities a breve termine
+            \item - outflows dall'acquisto di materie prime e oggetti da rivendere
+            \item - outflows per i Salari
+            \item - outflows per gli interessi passivi
+            \item - outflows per le tasse
+        \end{itemize}
+    \item Cashflow dalle attivitá di investimento:
+        \begin{itemize}[label={}]
+            \item + inflows dei creditori (obbligazioni per ripagare i debiti)
+            \item + inflows per l'emissione di titoli di capitale ai proprietari
+            \item - outflows per il rimborso ai creditori
+            \item - outflows per il riacquisto di capitale
+            \item - outflows per il pagamento di dividendi
+        \end{itemize}
+\end{enumerate}
+
+\subsubsection{Costruire il report}
+
+Si può costruire attraverso \textit{metodi indiretti}: determina il flusso di cassa da un aggiustamento dell'EBITDA o dal Net Worth per l'effetto di transazioni in contanti, attraverso \textit{Metodo diretto}: registrando i flussi di cassa, questo metodo è possibile eseguirlo solo dall'interno e non fattibile per degli analisti esterni.
+
+Le fasi per costruire il cashflow statement sono:
+
+\begin{itemize}[label={}]
+    \item EBITDA
+    \item - tasse
+    \item - cambiamenti nel capitale di lavoro operativo
+        \begin{itemize}[label={}]
+            \item + Debiti
+            \item - Incremento di inventario e crediti
+        \end{itemize}
+    \item = Operating Cash Flow
+    \item - cambiamenti in altri assets (aggiungere debiti diversi)
+    \item = Net Operating Cash Flows
+    \item - Investimenti in assets (CAPEX) \(\rightarrow\) al netto di D\&A
+    \item + perdite (profitti) sulla vendita di assets
+    \item - cambiamento netto negli altri assets non correnti
+    \item = cash avalaible for debt services
+        \begin{itemize}[label={}]
+            \item + Debiti finanziari
+            \item - Spese finanziarie
+        \end{itemize}
+    \item = Free cashflow to equity
+    \item - cambiamento netto dell'equity
+    \item = Cash flow del periodo
+\end{itemize}
+
+Fasi del cashflow operating system:
+
+\begin{itemize}
+    \item si parte dall'EBITDA e si sottraggono le tasse
+    \item quando si incrementa l'inventario si spende cash, quando l'inventario decresce allora si verifica un costo del venduto
+    \item quando aumentano i debiti incrementano la cassa, quando diminuiscono i debiti allora scende la cassa
+\end{itemize}
+Fasi del cash flow nell'investment activities:
+
+\begin{itemize}
+    \item In qeusta fase si deve cercare di isolare dal conto economico le spese fatte quell'anno 
+    \[
+        \text{Net capex}=\underbrace{\text{Asset alla fine dell'anno}}_{CB} - \underbrace{\text{Assets all'inizio dell'anno}}_{OB}+(-\text{D\&A})
+    \]
+    
+    \item se si hanno delle plusvalenze o elle minusvalenze occorre tenerne conto
+    
+    \item infine si tiene conto del cambiamento netto degli assets non correnti 
+    \[ 
+        \text{Net Change} = \text{Assets(liabilities) a fine anno} - \text{Assets(liabilities) a inizio anno} - \text{Accantonamenti} 
+    \]
+\end{itemize}
+Fase cashflow da attivitá finanziarie: anche in questa fase il funzionaemnto è simile al passato\\
+Fase finale: cambiamennto netto nell'equity: Come per i CAPEX e i fondi vengono aggiunti in questa fase tutti i cambiamenti non giutsificati in conto economico
+
+Alla fine occorre controllare che il cash combaci.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.7\linewidth]{images/chapter2/3.jpg}
+\end{figure}
+Attualmente è quindi meglio speigabile il cash conversion:
+\[
+    \text{Cash conversion} = \frac{\text{Free cash conversion to firm}}{EBITDA}
+\]  
+
+\subsubsection{Esempi}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.7\linewidth]{images/chapter2/4.jpg}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.7\linewidth]{images/chapter2/5.jpg}
+\end{figure}
+
+i due esempi sono la conferma che i due documenti debbano essere guardati insieme.
